@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoert" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact OtakUwU</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="log">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" width="30px" height="30px">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Need Help?</h1>
+                    <h4>We Stand for a fair and safe delivery of our Services at OtakUwU. Upon further deliberation for Problems in Merchandise Shipping Please contact the personages <strong>BELOW THIS PAGE</strong> to help in Your troubles</h4>
+                    <a href="product.html" class="btn">Find Merch Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/contactsimage.png"
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <h4>Owner</h4>
+                    <div class="social-media">
+                        <img src="images/instagram.png">
+                        <img src="images/facebook.png">
+                        <img src="images/twitter.png">
+                    </div>
+                    <img src="images/user-3.png" alt="">
+                    <h3>Ralph Lauren Santos</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <h4>Co-Owner</h4>
+                    <div class="social-media">
+                        <img src="images/instagram.png">
+                        <img src="images/facebook.png">
+                        <img src="images/twitter.png">
+                    </div>
+                    <img src="images/ryannick.png" alt="">
+                    <h3>Ryannick D. Tuaño</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and IOS</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/website logo2.png" alt="">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Return Policy</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>   
+            <p class="note">Web Development 2022 | BSIT 3-1</p> 
+
+        </div>
+    </div>
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px"
+            }
+            else{
+                MenuItems.style.maxHeight="0px"
+            }
+        }
+    </script>
+
+</body>
+</html>

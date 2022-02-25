@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoert" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>About OtakUwU</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="log">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" width="30px" height="30px">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>GREETINGS! Fellow Otakus</h1>
+                    <h4>We are OtakUWU~ We are just a couple of Anime Enthusiasts passionate about Anime Merchandise and want to share it to the Otaku Community. Delivering 100% Quality Merchandise from One Otaku to another IKUZO!~</h4>
+                    <a href="product.html" class="btn">Find Merch Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/aboutimage.png"
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eligendi, assumenda dolor rem facere ut ex, esse nam odio animi corrupti delectus dolorum fuga aut odit ipsam placeat voluptas culpa.</h5>
+                    <img src="images/user-3.png" alt="">
+                    <h3>Ralph Lauren Santos</h3>
+                    <h5 a href = "" class="btn">LEARN MORE ABOUT ME</h5>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <h5>Passionate like a Shooting Star, Strong like a Bear, Chilling like popsicle in Summer heat, Anime is My body, and Gacha is my Blood. here to Find the Quality Products to share to the Otaku Community Let's Go! </h5>
+                    <img src="images/ryannick.png" alt="">
+                    <h3>Ryannick D. Tuaño</h3>
+                    <h5 a href = "https://webdevactivity1ryannickbsit3-1.netlify.app/landing" class="btn" target ="_blank">LEARN MORE ABOUT ME</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and IOS</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/website logo2.png" alt="">
+                </div>
+                <div class="footer-col-3">
+                    <h3>Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Return Policy</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>   
+            <p class="note">Web Development 2022 | BSIT 3-1</p> 
+
+        </div>
+    </div>
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px"
+            }
+            else{
+                MenuItems.style.maxHeight="0px"
+            }
+        }
+    </script>
+
+</body>
+</html>
